@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001000101 /* VitalTraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000001 /* VitalTraceApp.swift */; };
+		B001000102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000002 /* ContentView.swift */; };
+		B001000103 /* VitalReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000003 /* VitalReading.swift */; };
+		B001000104 /* HeartRateReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000004 /* HeartRateReading.swift */; };
+		B001000105 /* OxygenReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000005 /* OxygenReading.swift */; };
+		B001000106 /* HealthTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000006 /* HealthTrend.swift */; };
+		B001000107 /* HealthScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000007 /* HealthScore.swift */; };
+		B001000108 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000008 /* StoreKitManager.swift */; };
+		B001000109 /* CameraHeartRateMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000009 /* CameraHeartRateMonitor.swift */; };
+		B001000110 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000010 /* HealthKitService.swift */; };
+		B001000111 /* VitalAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000011 /* VitalAnalytics.swift */; };
+		B001000112 /* MonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000012 /* MonitorViewModel.swift */; };
+		B001000113 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000013 /* HistoryViewModel.swift */; };
+		B001000114 /* HealthScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000014 /* HealthScoreViewModel.swift */; };
+		B001000115 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000015 /* HomeView.swift */; };
+		B001000116 /* HeartRateMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000016 /* HeartRateMonitorView.swift */; };
+		B001000117 /* OxygenMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000017 /* OxygenMonitorView.swift */; };
+		B001000118 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000018 /* HistoryView.swift */; };
+		B001000119 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000019 /* TrendsView.swift */; };
+		B001000120 /* HealthScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000020 /* HealthScoreView.swift */; };
+		B001000121 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000021 /* PaywallView.swift */; };
+		B001000122 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000022 /* OnboardingView.swift */; };
+		B001000123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000023 /* SettingsView.swift */; };
+		B001000151 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000051 /* HealthKit.framework */; };
+		B001000152 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000052 /* StoreKit.framework */; };
+		B001000153 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000053 /* AVFoundation.framework */; };
+		B001000154 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000054 /* AdServices.framework */; };
+		B001000155 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000055 /* AppTrackingTransparency.framework */; };
+		B001000156 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000056 /* SwiftUI.framework */; };
+		B001000157 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000057 /* Charts.framework */; };
+		B001000181 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B001000081 /* Info.plist */; };
+		B001000182 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B001000082 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001000001 /* VitalTraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalTraceApp.swift; sourceTree = "<group>"; };
+		B001000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B001000003 /* VitalReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalReading.swift; sourceTree = "<group>"; };
+		B001000004 /* HeartRateReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateReading.swift; sourceTree = "<group>"; };
+		B001000005 /* OxygenReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxygenReading.swift; sourceTree = "<group>"; };
+		B001000006 /* HealthTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrend.swift; sourceTree = "<group>"; };
+		B001000007 /* HealthScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScore.swift; sourceTree = "<group>"; };
+		B001000008 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		B001000009 /* CameraHeartRateMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHeartRateMonitor.swift; sourceTree = "<group>"; };
+		B001000010 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		B001000011 /* VitalAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalAnalytics.swift; sourceTree = "<group>"; };
+		B001000012 /* MonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewModel.swift; sourceTree = "<group>"; };
+		B001000013 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		B001000014 /* HealthScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScoreViewModel.swift; sourceTree = "<group>"; };
+		B001000015 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B001000016 /* HeartRateMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMonitorView.swift; sourceTree = "<group>"; };
+		B001000017 /* OxygenMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxygenMonitorView.swift; sourceTree = "<group>"; };
+		B001000018 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B001000019 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		B001000020 /* HealthScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScoreView.swift; sourceTree = "<group>"; };
+		B001000021 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		B001000022 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B001000023 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B001000051 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B001000052 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B001000053 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B001000054 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		B001000055 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		B001000056 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B001000057 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		B001000081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B001000082 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B001000083 /* VitalTrace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalTrace.entitlements; sourceTree = "<group>"; };
+		B001000090 /* VitalTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B001000070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001000151 /* HealthKit.framework in Frameworks */,
+				B001000152 /* StoreKit.framework in Frameworks */,
+				B001000153 /* AVFoundation.framework in Frameworks */,
+				B001000154 /* AdServices.framework in Frameworks */,
+				B001000155 /* AppTrackingTransparency.framework in Frameworks */,
+				B001000156 /* SwiftUI.framework in Frameworks */,
+				B001000157 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B001000200 /* VitalTrace */ = {
+			isa = PBXGroup;
+			children = (
+				B001000001 /* VitalTraceApp.swift */,
+				B001000002 /* ContentView.swift */,
+				B001000081 /* Info.plist */,
+				B001000082 /* GoogleService-Info.plist */,
+				B001000083 /* VitalTrace.entitlements */,
+				B001000210 /* Models */,
+				B001000220 /* Services */,
+				B001000230 /* ViewModels */,
+				B001000240 /* Views */,
+			);
+			name = VitalTrace;
+			path = VitalTrace;
+			sourceTree = "<group>";
+		};
+		B001000210 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B001000003 /* VitalReading.swift */,
+				B001000004 /* HeartRateReading.swift */,
+				B001000005 /* OxygenReading.swift */,
+				B001000006 /* HealthTrend.swift */,
+				B001000007 /* HealthScore.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B001000220 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B001000008 /* StoreKitManager.swift */,
+				B001000009 /* CameraHeartRateMonitor.swift */,
+				B001000010 /* HealthKitService.swift */,
+				B001000011 /* VitalAnalytics.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B001000230 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B001000012 /* MonitorViewModel.swift */,
+				B001000013 /* HistoryViewModel.swift */,
+				B001000014 /* HealthScoreViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B001000240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B001000015 /* HomeView.swift */,
+				B001000016 /* HeartRateMonitorView.swift */,
+				B001000017 /* OxygenMonitorView.swift */,
+				B001000018 /* HistoryView.swift */,
+				B001000019 /* TrendsView.swift */,
+				B001000020 /* HealthScoreView.swift */,
+				B001000021 /* PaywallView.swift */,
+				B001000022 /* OnboardingView.swift */,
+				B001000023 /* SettingsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B001000250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B001000051 /* HealthKit.framework */,
+				B001000052 /* StoreKit.framework */,
+				B001000053 /* AVFoundation.framework */,
+				B001000054 /* AdServices.framework */,
+				B001000055 /* AppTrackingTransparency.framework */,
+				B001000056 /* SwiftUI.framework */,
+				B001000057 /* Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B001000260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B001000090 /* VitalTrace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B001000270 = {
+			isa = PBXGroup;
+			children = (
+				B001000200 /* VitalTrace */,
+				B001000250 /* Frameworks */,
+				B001000260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B001000300 /* VitalTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B001000400 /* Build configuration list for PBXNativeTarget "VitalTrace" */;
+			buildPhases = (
+				B001000060 /* Sources */,
+				B001000070 /* Frameworks */,
+				B001000080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitalTrace;
+			productName = VitalTrace;
+			productReference = B001000090 /* VitalTrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B001000500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B001000300 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B001000600 /* Build configuration list for PBXProject "VitalTrace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B001000270;
+			productRefGroup = B001000260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B001000300 /* VitalTrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B001000080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001000182 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B001000060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001000101 /* VitalTraceApp.swift in Sources */,
+				B001000102 /* ContentView.swift in Sources */,
+				B001000103 /* VitalReading.swift in Sources */,
+				B001000104 /* HeartRateReading.swift in Sources */,
+				B001000105 /* OxygenReading.swift in Sources */,
+				B001000106 /* HealthTrend.swift in Sources */,
+				B001000107 /* HealthScore.swift in Sources */,
+				B001000108 /* StoreKitManager.swift in Sources */,
+				B001000109 /* CameraHeartRateMonitor.swift in Sources */,
+				B001000110 /* HealthKitService.swift in Sources */,
+				B001000111 /* VitalAnalytics.swift in Sources */,
+				B001000112 /* MonitorViewModel.swift in Sources */,
+				B001000113 /* HistoryViewModel.swift in Sources */,
+				B001000114 /* HealthScoreViewModel.swift in Sources */,
+				B001000115 /* HomeView.swift in Sources */,
+				B001000116 /* HeartRateMonitorView.swift in Sources */,
+				B001000117 /* OxygenMonitorView.swift in Sources */,
+				B001000118 /* HistoryView.swift in Sources */,
+				B001000119 /* TrendsView.swift in Sources */,
+				B001000120 /* HealthScoreView.swift in Sources */,
+				B001000121 /* PaywallView.swift in Sources */,
+				B001000122 /* OnboardingView.swift in Sources */,
+				B001000123 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B001000401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B001000402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B001000411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalTrace/VitalTrace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VitalTrace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.vitaltrace;
+				PRODUCT_NAME = VitalTrace;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B001000412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalTrace/VitalTrace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VitalTrace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.vitaltrace;
+				PRODUCT_NAME = VitalTrace;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B001000400 /* Build configuration list for PBXNativeTarget "VitalTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B001000411 /* Debug */,
+				B001000412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B001000600 /* Build configuration list for PBXProject "VitalTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B001000401 /* Debug */,
+				B001000402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B001000500 /* Project object */;
+}
