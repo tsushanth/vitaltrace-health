@@ -2,6 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.appfactory.vitaltrace.healthsync</string>
+	</array>
+	<key>CFBundleDisplayName</key>
+	<string>VitalTrace</string>
+	<key>CFBundleExecutable</key>
+	<string>VitalTrace</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.appfactory.vitaltrace</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>NSCameraUsageDescription</key>
 	<string>VitalTrace uses your camera to measure heart rate and blood oxygen (SpO2) by analyzing blood flow through your fingertip using photoplethysmography.</string>
 	<key>NSHealthShareUsageDescription</key>
@@ -10,6 +30,16 @@
 	<string>VitalTrace saves your heart rate, blood oxygen, and HRV readings to Apple Health for comprehensive health tracking.</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized health insights and measure app performance.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
@@ -17,33 +47,22 @@
 		<key>UIImageName</key>
 		<string>LaunchIcon</string>
 	</dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UIBackgroundModes</key>
+	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>fetch</string>
-		<string>processing</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
-		<string>com.appfactory.vitaltrace.healthsync</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
-	<key>CFBundleDisplayName</key>
-	<string>VitalTrace</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.appfactory.vitaltrace</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
 </dict>
 </plist>

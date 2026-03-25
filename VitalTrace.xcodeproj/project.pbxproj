@@ -37,8 +37,8 @@
 		B001000155 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000055 /* AppTrackingTransparency.framework */; };
 		B001000156 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000056 /* SwiftUI.framework */; };
 		B001000157 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B001000057 /* Charts.framework */; };
-		B001000181 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B001000081 /* Info.plist */; };
 		B001000182 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B001000082 /* GoogleService-Info.plist */; };
+		16ACD03578E444E7A640A704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC06D61B39B441B97E15E7D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +76,7 @@
 		B001000082 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B001000083 /* VitalTrace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalTrace.entitlements; sourceTree = "<group>"; };
 		B001000090 /* VitalTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC06D61B39B441B97E15E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +109,8 @@
 				B001000220 /* Services */,
 				B001000230 /* ViewModels */,
 				B001000240 /* Views */,
+							5EC06D61B39B441B97E15E7D /* Assets.xcassets */,
 			);
-			name = VitalTrace;
 			path = VitalTrace;
 			sourceTree = "<group>";
 		};
@@ -122,7 +123,6 @@
 				B001000006 /* HealthTrend.swift */,
 				B001000007 /* HealthScore.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -134,7 +134,6 @@
 				B001000010 /* HealthKitService.swift */,
 				B001000011 /* VitalAnalytics.swift */,
 			);
-			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -145,7 +144,6 @@
 				B001000013 /* HistoryViewModel.swift */,
 				B001000014 /* HealthScoreViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -162,7 +160,6 @@
 				B001000022 /* OnboardingView.swift */,
 				B001000023 /* SettingsView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -256,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B001000182 /* GoogleService-Info.plist in Resources */,
+							16ACD03578E444E7A640A704 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +418,7 @@
 				CODE_SIGN_ENTITLEMENTS = VitalTrace/VitalTrace.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = VitalTrace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -445,7 +443,7 @@
 				CODE_SIGN_ENTITLEMENTS = VitalTrace/VitalTrace.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = VitalTrace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
